@@ -37,9 +37,7 @@ def using_concat(array, array1)
 end
 
 def using_insert(array, element)
-    @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
-    @another_esoteric_language = ["Malbolge"]
-    @list_of_esoteric_programming_languages.insert(4, @another_esoteric_language) 
+    array.insert(4, element) 
 end
 
 def using_uniq(array)
